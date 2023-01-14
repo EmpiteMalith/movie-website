@@ -1,10 +1,11 @@
 import React from 'react'
+import { Link } from "react-router-dom"
 
 const Header = () => {
   return (
     <div className="movieapp-header">
         <div className="logo">
-         <a href="/"><h3>Movie<span className="text-white">vik</span></h3> </a>
+         <Link to="/"><h3>Movie<span className="text-white">vik</span></h3></Link>
         </div>
 
     </div>
