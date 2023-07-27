@@ -18,8 +18,6 @@ const MovieDetails = () => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [id]);
 
-  console.log("movie", movie);
-
   return (
     <>
       {movie == null ? (
