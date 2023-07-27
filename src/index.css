@@ -197,6 +197,35 @@ body {
   margin-top: 1.45rem;
 }
 
+.h-300{
+  height: 300px;
+  align-items: center;
+}
+
+.poster-placeholder{
+  width: 100%;
+}
+
+.loader {
+  width: 48px;
+  height: 48px;
+  border: 5px solid #FFF;
+  border-bottom-color: #03ce58;;
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+  }
+
+  @keyframes rotation {
+  0% {
+      transform: rotate(0deg);
+  }
+  100% {
+      transform: rotate(360deg);
+  }
+  } 
+
 @media only screen and (min-width: 768px) and (max-width: 830px) {
   .movie-details {
     margin-left: 1rem;
@@ -205,7 +234,7 @@ body {
 
 @media only screen and (max-width: 560px) {
   .movie-container {
-    padding: 0 3.5rem !important;
+    padding: 0 1.25rem !important;
   }
   .movie-card {
     width: 100%;
