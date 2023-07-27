@@ -17,8 +17,6 @@ const Movies = () => {
   // eslint-disable-next-line react-hooks/exhaustive-deps
   },[searchText]);
 
-  console.log(movies)
-
   return (
     <div className="main-wrapper">
         <div className="search-input-area">
